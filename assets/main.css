@@ -1,16 +1,21 @@
 form {
-    width: 40%;
     background: #ccc;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
 
 label {
     font-size: 2em;
 }
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
 
 input[type="submit"]{
     padding: 1em;
@@ -25,4 +30,21 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background: #fff;
     color: #000   
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+table thead {
+    margin: 1em;
+}
+table tbody
+
+tr, th, td{
+    font-size: 1.2em;
+    padding: 0.3em;
 }
